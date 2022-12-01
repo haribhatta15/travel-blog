@@ -68,3 +68,100 @@
   border-radius: 20px;
   text-align: center;
 }
+
+/* Post Section */
+.posts {
+  margin-top: 32px;
+  display: flex;
+}
+
+.posts-content {
+  width: 80%;
+}
+
+.side-links {
+  width: 20%;
+  margin-top: 30px;
+}
+
+.country {
+  background-color: rgba(0, 255, 98, 0.456);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.date {
+  margin-top: 20px;
+  background-color: rgba(0, 255, 98, 0.456);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+article {
+  display: flex;
+  margin-top: 32px;
+}
+
+.art-img {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-section {
+  margin-top: 0px;
+  padding: 20px 0px;
+  background-color: rgba(0, 255, 98, 0.456);
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  min-height: 300px;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.card:hover {
+  box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.503);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.btn-card {
+  background-color: #2929ff7c;
+  font-size: 18px;
+  padding: 4px 0 4px 0;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* subscribtion section */
+.subscription {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Footer Section */
+footer {
+  background: rgba(0, 0, 0, 0.143);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
